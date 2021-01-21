@@ -99,3 +99,27 @@ body{
     font-weight: bold;
     width: 660px;
 }
+/* TARJETAS */
+.card{
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+}
+.icon{
+    font-size: 75px;
+    text-align: center;
+    margin: 20px 0;
+}
+.category{
+    color: orange;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card p{
+    text-align: center;
+}
