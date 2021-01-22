@@ -36,21 +36,22 @@ body{
 #logo{
     width: 200px;
     height: 55px;
-    background-color: #666666;
+    background-color: #ddd;
     float: left;
     margin-top: 8px;
     cursor: pointer;
+    border-radius: 5px;
 }
 .logotipo{
     float:left;
-    color:yellow;
+    color:gold;
     font-size: 40px;
     margin-top: 7px;
     margin-left: 15px;
 }
 #logo h3{
     font-family: TrebuchetMS;
-    color: yellow;
+    color: #00538c;
     float: left;
     /* border: 1px solid white; */
     line-height: 55px;
@@ -75,7 +76,7 @@ body{
     transform: scale(1.2, 1.2);
 }
 #menu ul li:hover a{
-    color:yellow;    
+    color:#00538c;    
 }
 /* BANNER */
 #banner{
@@ -110,16 +111,20 @@ body{
     background-color: #fff;
     padding: 10px;
 }
-.icon{
+.icon i{
     font-size: 75px;
     text-align: center;
     margin: 20px 0;
+    color: gold;
 }
 .category{
-    color: orange;
+    color: #00538c;
     text-align: center;
     margin-bottom: 15px;
+    font-family: 'BebasNeue';
 }
 .card p{
     text-align: center;
+    font-family: 'Trebuchet MS';
+    color: gray;
 }
