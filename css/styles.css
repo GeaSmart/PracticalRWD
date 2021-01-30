@@ -110,6 +110,7 @@ body{
     float: left;
     background-color: #fff;
     padding: 10px;
+    
 }
 .icon i{
     font-size: 75px;
@@ -127,4 +128,30 @@ body{
     text-align: center;
     font-family: 'Trebuchet MS';
     color: gray;
+}
+
+/* BARRA LATERAL */
+#lateral{
+    width: 300px;
+    min-height: 1200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    margin: 20px;
+
+    /* border: 1px solid blue; */
+}
+
+#lateral h3{
+    display: block;
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    box-shadow: 0 1px 0px #393d3f, 1px 2px 0 #393d3f, 2px 3px 0 #393d3f;
+    background-color: #ccc;
+    color: #333333;
+    font-family: "BebasNeue";
+    margin: 15px 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 15px;
 }
